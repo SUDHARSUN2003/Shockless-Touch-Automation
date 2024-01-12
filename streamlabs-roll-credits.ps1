@@ -1,0 +1,1 @@
+Invoke-RestMethod -Uri "https://streamlabs.com/api/v1.0/credits/roll" -Method POST -Body @{"access_token" = [System.Environment]::GetEnvironmentVariable("StreamlabsAccessToken", "User")};
